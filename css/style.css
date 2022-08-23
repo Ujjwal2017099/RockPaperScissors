@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+     color: antiquewhite;
+     font-family: 'DynaPuff', cursive;
+}
+.mar{
+     padding: 45px;
+}
+
+body{
+     background-color: black;
+}
+
+/*  */
+.selection{
+     display: flex;
+     width: 80%;
+     margin: auto;
+     height: fit-content;
+}
+
+/*  */
+#user-choice{
+     width: 50%;
+     height: fit-content;
+     margin-top: 55px;
+     text-align: center;
+}
+#computer-choice{
+     width: 50%;
+     height: fit-content;
+     margin-top: 55px;
+     text-align: center;
+}
+#user-selection{
+     width: fit-content;
+     height: fit-content;
+}
+
+/*  */
+
+
+.choices img:hover{
+     transform: scale3d(1.5, 1.5, 1.5);
+}
+
+/*  */
+
+.select{
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 40px;
+     padding-bottom: 33px;
+}
+.options{
+     display: flex;
+     width: 80%;
+     margin: auto;
+}
+
+/*  */
+.rock{
+     width: 33%;
+     text-align: center;
+}
+.scissor{
+     width: 33%;
+     text-align: center;
+}
+.paper{
+     width: 33%;
+     text-align: center;
+}
+
+/*  */
+.rock img{
+     width: 170px;
+     height: auto;
+}
+.paper img{
+     width: 170px;
+     height: auto;
+}
+.scissor img{
+     margin-top: 50px;
+     width: 170px;
+     height: auto;
+}
+
+/*  */
+
+.result-div{
+     position: relative;
+     display: flex;
+
+     margin: auto;
+     cursor: pointer;
+}
+#result{
+     visibility:hidden;
+     width: 160px;
+     /* background-color: #555; */
+     /* color: #fff; */
+     justify-content: center;
+     text-align: center;
+     border-radius: 6px;
+     padding: 8px 0;
+     position: absolute;
+     z-index: 1;
+     bottom: 125%;
+     left: 30%;
+     /* margin-left: 480px; */
+}
+
+.counter{
+     display: flex;
+     flex-direction: column;
+}
+.counter .heading{
+     padding-top: 40px;
+     margin: auto;
+}
+
+#count{
+     margin: auto;
+}
